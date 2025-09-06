@@ -77,22 +77,23 @@ The modern period has **fewer ace seasons** *and* **fewer ace pitchers** than th
 
 ![Fig. 7 —confirmed vs. inprogress](confirmed_vs._inprogress_count.png)  
 
-To even prove more that we do not have as many aces nowadays, I kept the same definition of an **Ace Season** (WAR ≥ 2.0 and **CAS** ≥ 1.5, standardized within the year) and then classified *pitchers within each era*:
+### Why show “in-progress” aces at all?
 
-- **Confirmed ace**: the pitcher has **≥ 2 Ace Seasons within any 3-year window** in that era (a repeatable, multi-year peak).  
-- **In-progress ace**: the pitcher has **≥ 1 Ace Season** in that era but hasn’t hit the 2-in-3 bar *yet*.
+The **2-in-3 rule** (≥ 2 Ace Seasons within any 3-year window) is a good test of **repeatable dominance**, and as we have seen it **punishes short, recent eras**—there simply aren’t enough seasons yet for active pitchers to record a second ace year. That’s classic **right-censoring**.
 
-The stacked bars show **unique pitchers** per era: blue = confirmed; orange = in-progress. This makes the right-censoring in short/recent eras visible—e.g., in the **Modern Era (2021–2025)** there’s **1 confirmed** and **5 in-progress** (total **6** with any ace season), which fits the intuition that many active pitchers simply haven’t had time to post a second ace year. This shows that even if we loosen the definition of an ace pitchers and increase the amoutn of aces the mordern era still is on the low side. 
+To counter that, I split the people view into two buckets:
 
-**Which eras stand out?:**
+- **Confirmed aces** — already meet the 2-in-3 bar within the era.  
+- **In-progress aces** — have **≥ 1 Ace Season** in the era, but haven’t had enough time (or seasons) to earn the second one *yet*.
 
-- Eras like **Live Ball** and **Free Agency** have **larger raw counts** of ace pitchers (e.g., Live Ball totals **24** with any ace), which is unsurprising given their length.  
-- Shorter eras (e.g., **Juiced Ball**) can still produce a meaningful number of aces, but raw totals will be smaller by construction.  
-- The **Modern Era** is heavy on **in-progress** names—an expected artifact of the 2-in-3 rule plus recency.
+This lets recent eras show their **pipeline** of potential aces rather than looking artificially empty. It should increase the number of "aces" by essentiall lowering the bar to be considered an ace. 
 
-> **Caveat:** These are **counts**, not rates. Longer eras and eras with more teams naturally accumulate more ace pitchers.
+### Results: 
 
----
+If the modern game were overflowing with ace-caliber arms who just need time, you’d expect a **small blue bar** (few confirmed) but a **very large orange bar** (many in-progress). Instead, the **Modern Era (2021–2025)** shows **both** a small confirmed count **and** only a modest in-progress count. Even after giving modern pitchers credit for one ace season and lowering the bar on what is considered an ace,  the era remains **thin** compared to peak periods.
+
+Taken together, the in-progress split addresses the “not enough seasons yet” caveat **and** reinforces the main finding: today’s game has **fewer ace seasons and fewer ace pitchers**, not merely a timing artifact. It also explains why true standouts feel rarer—depth has risen, but separation at the very top has shrunk.
+
 
 ## How many *eligible pitchers* are aces? (people-level rate)
 
@@ -109,5 +110,7 @@ To normalize for era length and expansion, I convert the counts above into **per
 People-level charts answer *“how many ace pitchers did an era have?”* Both the raw counts and the **percent of eligible pitchers** point to the same story: the **Modern Era** (so far) has **fewer confirmed aces** and still third to last within the **in-progress** pool, while mid-1990s through late-2010s eras are richer in both confirmed and inprogress. 
 
 To compare eras purely on *how often ace seasons happen*, I also use the **per-year prevalence** and **95% confidence intervals** (season-level view). That approach treats **each year as one vote**, which is the fairest way to compare eras of very different lengths. Together, the people-level and season-level views paint a consistent picture: recent history (’90s–2010s) looks like a **high-water mark for aces**, and the **current** period is **thinner at the very top**, with the important caveat that some modern arms are still building their résumés. 
-ys
+
+## Almost without a doubt: There are less pitchers
+
 So confirmed, there are indeed fewer aces nowadays. Pitchers are so umbelievably good that if you stand out in today's game you are really something special. If you are classified as an ace in todays game through these metrics Hall of Fame is almost definite. Yay for the Tarik Skubals and future Paul Skenes. 
