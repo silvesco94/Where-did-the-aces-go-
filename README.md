@@ -41,7 +41,7 @@ This admittedly was done not as scientifically as one would have liked. Many hav
 To keep long eras from overwhelming short ones, I **measure aces as a per-year percentage**. For each season, I compute the **share of eligible starter-seasons that qualify as Ace Seasons**; then I **average those percentages within an era**. In other words, **each year gets one vote**, so a 5-year era and a 20-year era are comparable. I also show a secondary check—**aces per 100 starter-seasons**—and, where helpful, **95% confidence intervals** so short eras (like 2021–2025) are clearly marked as noisier. Together, this lets me compare eras fairly while acknowledging their different sizes.
 
 
-## Step 4) Run the find the aces formula and see which era reigns supreme 
+## Step 4) Run the formula to find the aces. 
 
 **Start with the big picture.**  
 ![Fig. 4 — Aces Data](mean_yearly_ace.png)  
@@ -117,4 +117,4 @@ To compare eras purely on *how often ace seasons happen*, I also use the **per-y
 
 ## Almost without a doubt: There are less ace pitchers
 
-So confirmed, there are indeed fewer aces nowadays. Pitchers are so umbelievably good that if you stand out in today's game you are really something special. If you are classified as an ace in todays game through these metrics Hall of Fame is almost definite. Yay for the Tarik Skubals and future Paul Skenes. 
+So confirmed, there are indeed fewer aces nowadays. Pitchers are so unbelievably good that if you stand out in today's game you are really something special. If you are classified as an ace in todays game through these metrics Hall of Fame is almost definite. Yay for the Tarik Skubal's and future Paul Skenes'. 
