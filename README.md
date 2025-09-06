@@ -118,3 +118,9 @@ To compare eras purely on *how often ace seasons happen*, I also use the **per-y
 ## Almost without a doubt: There are less ace pitchers
 
 So confirmed, there are indeed fewer aces nowadays. Pitchers are so unbelievably good that if you stand out in today's game you are really something special. If you are classified as an ace in todays game through these metrics Hall of Fame is almost definite. Yay for the Tarik Skubal's and future Paul Skenes'. 
+
+
+
+
+------
+If you want to see the code go to https://github.com/silvesco94/Where-did-the-aces-go-/blob/main/aces.ipynb
