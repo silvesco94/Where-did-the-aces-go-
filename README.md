@@ -12,7 +12,7 @@ To make sure this isn’t just a neat idea, I checked that it behaves like a rea
 
 ### What does an ace pitcher look like? 
 
-[ACE STATS] 
+![Fig. 1 —  Ace Stats](ace_stat.png)  
 
 [ACE VS MEAN] 
 
