@@ -111,6 +111,6 @@ People-level charts answer *“how many ace pitchers did an era have?”* Both t
 
 To compare eras purely on *how often ace seasons happen*, I also use the **per-year prevalence** and **95% confidence intervals** (season-level view). That approach treats **each year as one vote**, which is the fairest way to compare eras of very different lengths. Together, the people-level and season-level views paint a consistent picture: recent history (’90s–2010s) looks like a **high-water mark for aces**, and the **current** period is **thinner at the very top**, with the important caveat that some modern arms are still building their résumés. 
 
-## Almost without a doubt: There are less pitchers
+## Almost without a doubt: There are less ace pitchers
 
 So confirmed, there are indeed fewer aces nowadays. Pitchers are so umbelievably good that if you stand out in today's game you are really something special. If you are classified as an ace in todays game through these metrics Hall of Fame is almost definite. Yay for the Tarik Skubals and future Paul Skenes. 
