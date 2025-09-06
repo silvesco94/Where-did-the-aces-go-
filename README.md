@@ -14,7 +14,7 @@ To make sure this isn’t just a neat idea, I checked that it behaves like a rea
 
 ![Fig. 1 —  Ace Stats](ace_stat.png)  
 
-[ACE VS MEAN] 
+![Fig. 2 — Ace vs. Mean](ace_mean.png)  
 
 This is at least proof that the formula and the definition is working. The stats for aces is clearly a massive step above league average. So at least we know that we are looking at true aces. 
 
