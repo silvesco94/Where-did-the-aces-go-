@@ -77,7 +77,7 @@ The modern period has **fewer ace seasons** *and* **fewer ace pitchers** than th
 **Caveat:** The modern estimate is provisional (fewer years, wider error bars), and a couple more seasons could move it. But taken together—frequency of ace **seasons** and count of repeat ace **pitchers**—the data points to a **thinner very top** today than in the mid-’90s through late-2010s.
 
 
-## Step 5) Increase amount of aces to accound for small seasons. 
+## Step 5) Increase amount of aces to account for small seasons. 
 
 ![Fig. 7 —confirmed vs. inprogress](confirmed_vs._inprogress_count.png)  
 
