@@ -1,14 +1,21 @@
 # Aces_article
 
-I’ve had the pleasure of listening to the podcast,  **The Windup**—especially the **Roundtable** episodes with **Grant Brisbee**, **Andy McCullough**, and the mighty **Sam Miller**. They’re fantastic writers who always make me think about the game. A running topic on the show is the **ace**—how to define one and who qualifies. What strikes me is how much less prevalent that conversation feels today than when I was growing up.
+When I was a kid, Opening Day felt like a duel of No. 1s, and October meant handing the ball to the same horse in Games 1 and 7. Names like **Pedro Martínez**, **Roger Clemens**, **Curt Schilling**, and **Greg Maddux** didn’t just pitch; they set the calendar. That’s the picture of an **ace** I grew up with.
 
-Back then, **Day 1** starters and the guys you saved for **Games 1 and 7** were a huge part of the sport’s language. Names like **Pedro Martínez**, **Roger Clemens**, **Curt Schilling**, **Greg Maddux**, and others dominated those conversations. It’s not that today’s game lacks great starting pitching—if anything, rotations are deeper from spots **1–5** (and now **6 or 7**), which makes true standouts rarer. So I set out to **define an ace** in a rigorous, **era-aware** way and then test whether this period in baseball history really has **fewer or more aces** than past eras.
+Today the shape of pitching is different. Rotations run six or seven deep, starters throw fewer innings, and true separation at the top is rarer. The numbers hint at it: in the **Juiced Ball** years (2016–2019), roughly **6–7%** of eligible starter-seasons graded as ace years; since **2021**, it’s closer to **~3–4%**. So is this a real ace drought—or did the game change what an ace looks like?
+
+To find out, I’m treating “ace” like a measurable claim, not a vibe: a year-relative composite of **ERA, WHIP, K/9, and WAR**, with a simple workload floor, applied within each season’s context. The question isn’t just *who feels like an ace*, but **how often ace-level seasons actually happen**—and how many pitchers can repeat them. If the modern game truly flattens the top, the data should show it.
+
+
 
 ## Step 1) How I Define (and Validate) an “Ace”
 
 I didn’t want to define an ace by feel. I wanted a bar that says, with numbers, “this pitcher was truly better than his peers.” So I define an **Ace Season** as a year where a starter dominates his **own season’s** context across four core stats—**ERA, WHIP, K/9, and WAR**. I standardize each stat **within the same year** (so run environment and league-wide strikeout trends don’t skew things), flip ERA/WHIP so lower values become better, and average the four z-scores into one number: the **Composite Ace Score (CAS)**. I also impose a **workload floor** of **WAR ≥ 2.0** so tiny, fluky seasons don’t sneak in. With that setup, a season is an **Ace Season** if **CAS ≥ 1.5**. Intuitively, **CAS = +1.5** means the pitcher is about **1.5 standard deviations better than his peers on the combined scale**.
 
-To make sure this isn’t just a neat idea, I checked that it behaves like a real signal. On my dataset (**7,030** eligible pitcher-seasons), **4.17%** qualify as Ace Seasons—roughly one in twenty-four. **Repeatability** is strong: an Ace Season is followed by another ace year **~12×** more often than random over the next 1–2 seasons (**43.7%** vs **3.6%**). **Predictive power** is solid: current-year CAS predicts **top-10% WAR next year** with **AUC ≈ 0.73**, and pitchers in the top CAS decile are **~3×** likelier to hit that top-10% mark. It also passes a **sanity check** against circularity: even if I remove WAR and use only **ERA/WHIP/K/9**, the score still tracks value (Spearman **≈ 0.45** with same-year WAR percentile). Finally, when I move the threshold, it behaves sensibly—about **6.5%** of seasons qualify at **CAS 1.25**, **4.2%** at **1.50**, and **2.3%** at **1.75**—while repeatability remains strong as the bar tightens. With a clear definition, a workload floor, and validation that it’s both stable and predictive, this is the ace line I use throughout the article.
+Here’s the quick proof that this definition works:
+
+Out of **7,030** pitcher-seasons, about **4%** (roughly **1 in 24**) clear the ace bar. If you’re an ace this year, you have about a **44%** chance of being an ace again in the next 1–2 seasons; if you’re not, it’s about **4%**—a **~12×** difference. The score also points forward: pitchers with a high CAS are **~3×** more likely to land in the **top 10%** by WAR the next year (in other words, it’s good at telling who will be great). It isn’t just sneaking WAR back in either—using only **ERA/WHIP/K/9** still lines up with value pretty well. And when I raise or lower the bar, the results move sensibly (**~6.5%**, **4.2%**, **2.3%** at easier/standard/stricter settings) without breaking the pattern. Bottom line: the line is **strict**, **fair to each season**, and **actually predictive**.
+
 
 ### What does an ace pitcher look like? 
 
@@ -16,11 +23,11 @@ To make sure this isn’t just a neat idea, I checked that it behaves like a rea
 
 ![Fig. 2 — Ace vs. Mean](ace_mean.png)  
 
-This is at least proof that the formula and the definition is working. The stats for aces is clearly a massive step above league average. So at least we know that we are looking at true aces. 
+This is at least proof that the formula and the definition is working. The stats for aces is clearly a massive step above league average. So at least we know that we are looking at true aces, and we can use this definition of an ace to find out era specific numbers.
 
 ## Step 2) Defining Eras 
 
-This admittedly was done not as scientifically as one would have liked. Many have tried to classify eras, when they start when they end, what they are known for, etc. and few have been successful. This article isn't about this, however. Therefore I am just using a standardized breakdown of eras. I was going to just do a pitch-clock era, but I wanted to make sure it was long enought to get a good number of aces. 
+This admittedly was done not as scientifically as one would have liked. Many have tried to classify eras, when they start when they end, what they are known for, etc. and few have been successful. This article isn't about defining eras anyhow, so I am just using a standardized breakdown of eras that is widely accepted. 
 
 ![Fig. 3 — ERAS](eras.jpg)  
 
