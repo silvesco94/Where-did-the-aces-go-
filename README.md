@@ -22,7 +22,7 @@ This is at least proof that the formula and the definition is working. The stats
 
 This admittedly was done not as scientifically as one would have liked. Many have tried to classify eras, when they start when they end, what they are known for, etc. and few have been successful. This article isn't about this, however. Therefore I am just using a standardized breakdown of eras. I was going to just do a pitch-clock era, but I wanted to make sure it was long enought to get a good number of aces. 
 
-[eras]
+![Fig. 3 — ERAS](eras.jpg)  
 
 
 ## Step 3) Handling eras of different lengths
@@ -33,16 +33,16 @@ To keep long eras from overwhelming short ones, I **measure aces as a per-year p
 ## Step 4) Run the find the aces formula and see which era reigns supreme 
 
 **Start with the big picture.**  
-![Fig. 1 — Mean Yearly Ace-Season Prevalence](mean_yearly_ace.png)  
+![Fig. 4 — Aces Data](mean_yearly_ace.png)  
 In a typical year of each era, what share of eligible starter-seasons cleared the **ace** bar (CAS ≥ 1.5, WAR ≥ 2.0)?  
 **Juiced Ball (2016–2019)** and **Steroid (1993–2003)** sit on top at roughly **6–6.5%**; a middle pack hovers near **5%** (**Velocity/Statcast**, **Deadball**, **Pre-Modern**, **Testing/Transition**, **WWII**); and the **Modern Era (2021–2025)** lands lower, around **3.7%**, above **Free Agency** but below most recent eras.
 
 **But how certain are those differences?**  
-![Fig. 2 — Mean Yearly Ace-Season Prevalence with 95% CIs](mean_yearly_ace_95.png)  
+![Fig. 5 — Mean Yearly Ace-Season Prevalence with 95% CIs](mean_yearly_ace_95.png)  
 The vertical bars are **95% confidence intervals**, showing how much each era’s average could wiggle if we resampled its years. Long eras are tight; short eras (like **2021–2025**) are wide, so treat the modern estimate as **provisional**. Even with uncertainty, the **Juiced Ball/Steroid** tier is clearly higher than the early-era lows.
 
 **Okay—are there fewer ace *seasons*, or fewer ace *pitchers*?**  
-![Fig. 3 — Unique Ace Pitchers per Year (2-in-3 rule)](unique_ace_pitcher.png)  
+![Fig. 6— Unique Ace Pitchers per Year (2-in-3 rule)](unique_ace_pitcher.png)  
 To get at “ace” as a person, not just a season, this chart counts **unique pitchers per year** who meet the **2-in-3** consistency rule within each era. The pattern echoes Fig. 1: **Juiced Ball** leads (~**0.75** per year), followed by **Steroid** (~**0.55**). The **Modern Era** is low (~**0.20**), partly real (harder to separate at the top) and partly mechanical—active arms haven’t had enough seasons to complete 2-in-3 (**right-censoring**).
 
 **Takeaway.**  
@@ -50,7 +50,7 @@ Across both lenses—how often ace **seasons** happen and how many **pitchers** 
 
 ## Step 5) See who are the aces? (people-level view)
 
-**Figure — Confirmed vs In-Progress Aces by Era.**  
+![Fig. 7 —confirmed vs. inprogress](confirmed_vs._inprogress_count.png)  
 
 To even prove more that we do not have as many aces nowadays, I kept the same definition of an **Ace Season** (WAR ≥ 2.0 and **CAS** ≥ 1.5, standardized within the year) and then classified *pitchers within each era*:
 
@@ -71,7 +71,7 @@ The stacked bars show **unique pitchers** per era: blue = confirmed; orange = in
 
 ## How many *eligible pitchers* are aces? (people-level rate)
 
-**Figure — Percent of Eligible Pitchers Who Are Aces by Era.**  
+![Fig. 8 —Percent In progress](percent_with_inprogress.png)    
 To normalize for era length and expansion, I convert the counts above into **percentages of unique eligible pitchers** within each era (stacked into **Confirmed** and **In-progress**). This reframes the question as, *“Out of the pitchers who met the workload floor in an era, what share were ace-caliber?”*
 
 - This lens reduces the bias toward long eras and highlights **how concentrated the ace label** is within a cohort of pitchers.  
