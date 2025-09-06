@@ -63,10 +63,15 @@ In a typical year of each era, what share of eligible starter-seasons cleared th
 
 ![Fig. 6— Unique Ace Pitchers per Year (2-in-3 rule)](unique_ace_pitcher.png)  
 
-To get at “ace” as a person, not just a season, this chart counts **unique pitchers per year** who meet the **2-in-3** consistency rule within each era. The pattern echoes Fig. 1: **Juiced Ball** leads (~**0.75** per year), followed by **Steroid** (~**0.55**). The **Modern Era** is low (~**0.20**), partly real (harder to separate at the top) and partly mechanical—active arms haven’t had enough seasons to complete 2-in-3 (**right-censoring**).
+**Short answer: both.**  
+The modern period has **fewer ace seasons** *and* **fewer ace pitchers** than the peak eras.
 
-**Takeaway.**  
-Across both lenses—how often ace **seasons** happen and how many **pitchers** repeatedly reach that level—the mid-’90s to late-2010s were a high-water mark. The **current** period shows a smaller share of aces, consistent with deeper staffs and usage patterns that flatten the very top, with the caveat that a few more seasons could nudge the modern estimate.
+- **Season lens (how often it happens):** In the **Juiced Ball** years, about **6–7%** of eligible starter-seasons qualified as ace seasons; since **2021**, it’s about **~3–4%** per year. Even with wide uncertainty for recent seasons, the modern rate sits **below** the 1990s–2010s high-water mark.
+
+- **Pitcher lens (who can repeat it):** The number of **confirmed ace pitchers per year** (≥2 ace seasons in any 3-year window) is also down—roughly **~0.20** in the modern era versus **~0.75** in Juiced Ball and **~0.55** in the Steroid era. Many current arms show **one** ace season but haven’t had time to post a second (**right-censoring**), yet the gap remains even accounting for that.
+
+**Caveat:** The modern estimate is provisional (fewer years, wider error bars), and a couple more seasons could move it. But taken together—frequency of ace **seasons** and count of repeat ace **pitchers**—the data points to a **thinner very top** today than in the mid-’90s through late-2010s.
+
 
 ## Step 5) See who are the aces? (people-level view)
 
