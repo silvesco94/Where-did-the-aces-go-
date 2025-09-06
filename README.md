@@ -77,7 +77,7 @@ The modern period has **fewer ace seasons** *and* **fewer ace pitchers** than th
 **Caveat:** The modern estimate is provisional (fewer years, wider error bars), and a couple more seasons could move it. But taken together—frequency of ace **seasons** and count of repeat ace **pitchers**—the data points to a **thinner very top** today than in the mid-’90s through late-2010s.
 
 
-## Step 5) See who are the aces? (people-level view)
+## Step 5) Increase amount of aces:
 
 ![Fig. 7 —confirmed vs. inprogress](confirmed_vs._inprogress_count.png)  
 
@@ -90,7 +90,7 @@ To counter that, I split the people view into two buckets:
 - **Confirmed aces** — already meet the 2-in-3 bar within the era.  
 - **In-progress aces** — have **≥ 1 Ace Season** in the era, but haven’t had enough time (or seasons) to earn the second one *yet*.
 
-This lets recent eras show their **pipeline** of potential aces rather than looking artificially empty. It should increase the number of "aces" by essentiall lowering the bar to be considered an ace. 
+This lets recent eras show their **pipeline** of potential aces rather than looking artificially empty. It should increase the number of "aces" by essentially lowering the bar to be considered an ace. 
 
 ### Results: 
 
