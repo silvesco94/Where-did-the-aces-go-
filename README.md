@@ -46,10 +46,23 @@ In a typical year of each era, what share of eligible starter-seasons cleared th
 
 **But how certain are those differences?**  
 ![Fig. 5 — Mean Yearly Ace-Season Prevalence with 95% CIs](mean_yearly_ace_95.png)  
-The vertical bars are **95% confidence intervals**, showing how much each era’s average could wiggle if we resampled its years. Long eras are tight; short eras (like **2021–2025**) are wide, so treat the modern estimate as **provisional**. Even with uncertainty, the **Juiced Ball/Steroid** tier is clearly higher than the early-era lows.
 
-**Okay—are there fewer ace *seasons*, or fewer ace *pitchers*?**  
+**What you’re looking at:** each dot is an era’s **average share of ace seasons per year** (CAS ≥ 1.5 among eligible starters; 2020 excluded). The vertical whiskers are **95% confidence intervals** built by resampling the years in that era. Think of them as the plausible range for the true era average—if we could replay that era’s seasons many times, about **19 out of 20** such intervals would cover the real value.
+
+**How to read it:** longer eras (more seasons) have **tighter** intervals; short eras (e.g., **WWII**, **Modern 2021–2025**) have **wide** intervals, so their point estimates are noisy. Non-overlapping intervals suggest clearer separation; heavy overlap means the ranking is uncertain.
+
+**What it says:**  
+- The **Juiced Ball** and **Steroid** eras sit at the top (~**6–6.5%** ace seasons) and are **clearly above** the early-era lows (**Integration/Post-WWII**, **Pre-Mound Move**).  
+- A middle band—**Velocity/Statcast**, **Deadball**, **Pre-Modern**, **Testing/Transition**, **WWII**, **Expansion**—clusters around **4–5%**.  
+- The **Modern Era (2021–2025)** average is lower (~**3.7%**) but its **wide interval** overlaps much of the middle pack, which means we should treat any precise ranking for modern years as **provisional** until more seasons accrue.
+
+**Bottom line:** even accounting for uncertainty, the chart supports a simple story: the **mid-’90s through late-2010s** were a high-water mark for ace seasons, while the **modern period** appears leaner at the very top—though the exact gap will sharpen as more post-2021 data comes in.
+
+
+**So are there fewer ace *seasons* or fewer ace *pitchers*?** 
+
 ![Fig. 6— Unique Ace Pitchers per Year (2-in-3 rule)](unique_ace_pitcher.png)  
+
 To get at “ace” as a person, not just a season, this chart counts **unique pitchers per year** who meet the **2-in-3** consistency rule within each era. The pattern echoes Fig. 1: **Juiced Ball** leads (~**0.75** per year), followed by **Steroid** (~**0.55**). The **Modern Era** is low (~**0.20**), partly real (harder to separate at the top) and partly mechanical—active arms haven’t had enough seasons to complete 2-in-3 (**right-censoring**).
 
 **Takeaway.**  
