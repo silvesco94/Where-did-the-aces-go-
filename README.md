@@ -4,7 +4,7 @@
 ![Ace Stats](aces_pic1.jpg)
 
 
-When I was a kid, Opening Day felt like a duel of No. 1s, and October meant handing the ball to the same horse in Games 1 and 7. Names like **Pedro Martínez**, **Roger Clemens**, **Curt Schilling**, and **Greg Maddux** didn’t just pitch; they set the calendar. That’s the picture of an **ace** I grew up with.
+When I was a kid, Opening Day felt like a duel of No. 1s, and October meant handing the ball to the same horse in Games 1 and 7. Names like seen above **Pedro Martínez**, **Roger Clemens**, **Randy Johnson**, and **Greg Maddux** didn’t just pitch; they set the calendar. That’s the picture of an **ace** I grew up with.
 
 Today the shape of pitching is different. Rotations run six or seven deep, starters throw fewer innings, and true separation at the top is rarer. The numbers hint at it: in the **Juiced Ball** years (2016–2019), roughly **6–7%** of eligible starter-seasons graded as ace years; since **2021**, it’s closer to **~3–4%**. So is this a real ace drought—or did the game change what an ace looks like?
 
